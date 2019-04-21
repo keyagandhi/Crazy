@@ -45,17 +45,7 @@ export class SurveyListComponent implements OnInit {
     this.surveyService.getList().subscribe(data => {
       if (data.success) {
         this.surveys = data.surveyList;
-
-
-        for (let index = 0; index < this.surveys.length; index++) {
-          const today = new Date();
-          const secondDate = new Date(this.surveys[index].surveyTill);
-          const timeDiff = Math.abs(today.getTime() - secondDate.getTime());
-          this.numOfDays[index] = Math.ceil(timeDiff / (1000 * 3600 * 24));
-        }
-
-
-      } else {
+  } else {
         this.flashMessage.show('User must be logged-in', { cssClass: 'alert-danger', timeOut: 3000 });
       }
     });
@@ -66,13 +56,7 @@ export class SurveyListComponent implements OnInit {
       if (data.success) {
         this.surveys = data.surveyList;
 
-        for (let index = 0; index < this.surveys.length; index++) {
-          const today = new Date();
-          const secondDate = new Date(this.surveys[index].surveyTill);
-          const timeDiff = Math.abs(today.getTime() - secondDate.getTime());
-          this.numOfDays[index] = Math.ceil(timeDiff / (1000 * 3600 * 24));
-        }
-
+        
       } else {
         this.flashMessage.show('User must be logged-in', { cssClass: 'alert-danger', timeOut: 3000 });
       }

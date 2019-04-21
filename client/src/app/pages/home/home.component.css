@@ -1,5 +1,5 @@
 
-  .carousel-fade .carousel-inner .item {
+  /* .carousel-fade .carousel-inner .item {
     opacity: 0;
     transition-property: opacity;
   }
@@ -137,8 +137,8 @@ background-repeat: no-repeat;
 
 .our-mission p{
   text-align: center;
-}
-
+} */
+/* 
 .myImage{
   height: 400px;
   width: 100%;
@@ -155,9 +155,9 @@ background-repeat: no-repeat;
   background-position: center center;
   background-repeat: no-repeat;
   overflow: hidden;
-}
+} */
 
-
+/* 
 @media (max-width: 736px) {
   .our-mission{
     font-family: 'Nanum Gothic', sans-serif;
@@ -167,4 +167,4 @@ background-repeat: no-repeat;
   .our-mission h1{
     margin: 20px;
   }
-}
+} */

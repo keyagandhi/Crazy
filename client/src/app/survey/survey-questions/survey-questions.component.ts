@@ -74,7 +74,7 @@ export class SurveyQuestionsComponent implements OnInit {
     this.filledSurvey.userName = this.user.username;
     this.filledSurvey.answers = this.answers;
     this.filledSurvey.surveyId = this.survey._id;
-    this.filledSurvey.surveyCompletionDate = new Date();
+   
 
 
     this.surveyService.addFilledSurvey(this.filledSurvey).subscribe(data => {

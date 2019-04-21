@@ -78,7 +78,7 @@ export class SurveyDetailsComponent implements OnInit {
 
    onDetailsPageSubmit(): void {
 
-    console.log(this.survey.surveyTill);
+    // console.log(this.survey.surveyTill);
 
     this.survey.questions = this.questions;
     this.survey.surveyAuthor = this.user.username;

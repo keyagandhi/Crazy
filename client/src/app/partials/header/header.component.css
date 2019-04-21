@@ -3,11 +3,24 @@
   height: 50px;
 }
 
-.navbar{
-  background-color: white;
-  font-family: 'Nanum Gothic', sans-serif;
-}
 
-.navbar-nav .nav-link{
-  color: black;
-}
+/* div {
+    padding-bottom: 20px;
+    background-color:rgb(114, 250, 101);
+  } */
+  
+  h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    
+  }
+  
+  p {
+    color: rgb(0, 0, 0);
+    font-family: verdana;
+    font-size: 20px;
+  }
+
+  div{
+    color: rgb(31, 59, 4)
+  }

@@ -4,7 +4,6 @@
       <div class="col-lg-12">
           <h1>{{survey.surveyTitle}}</h1>
 
-
           <br>
 
           <form class="form" (submit)="onSurveySubmit()">
@@ -12,16 +11,16 @@
               <h6>{{i+1}}) {{ question.question }}</h6>
               <div class="row">
                   <div class="col-lg-3">
-                    <input name="mike{{i}}" type="radio" id="{{answers[i]}}" [(ngModel)]="answers[i].answer" value="1"> {{question.option1}}<br>
+                    <input name="keya{{i}}" type="radio" id="{{answers[i]}}" [(ngModel)]="answers[i].answer" value="1"> {{question.option1}}<br>
                   </div>
                   <div class="col-lg-3">
-                    <input name="mike{{i}}" type="radio" id="{{answers[i]}}" [(ngModel)]="answers[i].answer" value="2"> {{question.option2}}<br>
+                    <input name="keya{{i}}" type="radio" id="{{answers[i]}}" [(ngModel)]="answers[i].answer" value="2"> {{question.option2}}<br>
                   </div>
                   <div class="col-lg-3">
-                    <input name="mike{{i}}" type="radio" id="{{answers[i]}}" [(ngModel)]="answers[i].answer" value="3"> {{question.option3}}<br>
+                    <input name="keya{{i}}" type="radio" id="{{answers[i]}}" [(ngModel)]="answers[i].answer" value="3"> {{question.option3}}<br>
                   </div>
                   <div class="col-lg-3">
-                    <input name="mike{{i}}" type="radio" id="{{answers[i]}}" [(ngModel)]="answers[i].answer" value="4"> {{question.option4}}<br>
+                    <input name="keya{{i}}" type="radio" id="{{answers[i]}}" [(ngModel)]="answers[i].answer" value="4"> {{question.option4}}<br>
                   </div>
               </div>
               <hr/>
